@@ -3,76 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background: #0077cc;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            width: 80%;
-            margin: 30px auto;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        }
-
-        h2 {
-            color: #0077cc;
-        }
-    </style>
+    <title>Portfolio | ประวัติการศึกษา</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-    <h1>ประวัติการศึกษา</h1>
+    <h1>PORTFOLIO</h1>
+
+    <nav>
+        <a href="index.html">หน้าหลัก</a>
+        <a href="profile.html">ประวัติส่วนตัว</a>
+        <a href="education.html" class="active">ประวัติการศึกษา</a>
+        <a href="skills.html">ความสามารถและทักษะ</a>
+        <a href="contact.html">ติดต่อ</a>
+    </nav>
 </header>
 
-<div class="container">
+<section class="page">
+    <h2>ประวัติการศึกษา</h2>
 
-    <div class="card">
-        <h2>ระดับประถมศึกษา</h2>
-        <p>โรงเรียนตัวอย่าง</p>
-        <p>ปีการศึกษา 2554 - 2559</p>
+    <div class="timeline">
+
+        <div class="education-card">
+            <h3>ระดับประถมศึกษา</h3>
+            <p>โรงเรียน ....................................</p>
+            <span>พ.ศ. .... - ....</span>
+        </div>
+
+        <div class="education-card">
+            <h3>ระดับมัธยมศึกษาตอนต้น</h3>
+            <p>โรงเรียน ....................................</p>
+            <span>พ.ศ. .... - ....</span>
+        </div>
+
+        <div class="education-card">
+            <h3>ระดับมัธยมศึกษาตอนปลาย</h3>
+            <p>โรงเรียน ....................................</p>
+            <span>พ.ศ. .... - ปัจจุบัน</span>
+        </div>
+
     </div>
+</section>
 
-    <div class="card">
-        <h2>ระดับมัธยมศึกษาตอนต้น</h2>
-        <p>โรงเรียนตัวอย่าง</p>
-        <p>ปีการศึกษา 2560 - 2562</p>
-    </div>
-
-    <div class="card">
-        <h2>ระดับมัธยมศึกษาตอนปลาย</h2>
-        <p>โรงเรียนตัวอย่าง</p>
-        <p>ปีการศึกษา 2563 - 2565</p>
-    </div>
-
-    <div class="card">
-        <h2>ระดับปริญญาตรี</h2>
-        <p>มหาวิทยาลัยตัวอย่าง</p>
-        <p>คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</p>
-        <p>ปีการศึกษา 2566 - ปัจจุบัน</p>
-    </div>
-
-</div>
+<footer>
+    <p>© 2026 My Portfolio | Student M.6</p>
+</footer>
 
 </body>
 </html>
