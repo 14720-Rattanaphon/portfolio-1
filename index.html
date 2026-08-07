@@ -3,36 +3,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<title>My Portfolio</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF0F5;
+    color:#333;
+}
+
+nav{
+    background:#FF69B4;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.container{
+    text-align:center;
+    padding:50px;
+}
+
+img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:6px solid #FF69B4;
+}
+
+button{
+    background:#FF1493;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#FF69B4;
+}
+</style>
+
 </head>
 <body>
-<header>
+
 <nav>
-<div class="logo">Portfolio</div>
-<ul>
-<li><a href="index.html">หน้าหลัก</a></li>
-<li><a href="profile.html">ประวัติส่วนตัว</a></li>
-<li><a href="education.html">การศึกษา</a></li>
-<li><a href="portfolio.html">ผลงาน</a></li>
-<li><a href="contact.html">ติดต่อ</a></li>
-</ul>
+<a href="index.html">🏠 หน้าหลัก</a>
+<a href="about.html">👤 ประวัติ</a>
+<a href="education.html">🎓 การศึกษา</a>
+<a href="skills.html">💻 ทักษะ</a>
+<a href="contact.html">📞 ติดต่อ</a>
 </nav>
-</header>
+
 <div class="container">
-<div class="card" style="text-align:center;">
-<img src="images/profile.jpg" class="profile-img">
-<h1>สวัสดีค่ะ</h1>
-<p>
- Portfolio ของนางสาว รัตนาพร แสงพลู
-</p>
-<a href="profile.html" class="btn">
-เริ่มต้นทำความรู้จัก
-</a>
+
+<img src="images/profile.jpg" alt="Profile">
+
+<h1>YOUR NAME</h1>
+
+<h3>Web Developer</h3>
+
+<p>ยินดีต้อนรับสู่เว็บไซต์ Portfolio ของฉัน 💖</p>
+
+<button onclick="location.href='about.html'">
+ดูประวัติส่วนตัว
+</button>
+
 </div>
-</div>
-<footer>
-Copyright © 2026 Portfolio
-</footer>
+
 </body>
 </html>
