@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Portfolio</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio | หน้าหลัก</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <h2>My Portfolio</h2>
+<header>
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
 
-        <div>
-            <a href="index.html">หน้าหลัก</a>
-            <a href="about.html">ประวัติ</a>
-            <a href="education.html">การศึกษา</a>
-            <a href="skills.html">ทักษะ</a>
-            <a href="contact.html">ติดต่อ</a>
-        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">หน้าหลัก</a></li>
+            <li><a href="education.html">การศึกษา</a></li>
+            <li><a href="projects.html">ผลงาน</a></li>
+            <li><a href="skills.html">ทักษะ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
     </nav>
+</header>
 
-    <main>
+<main class="hero">
 
-        <img src="images/profile.jpg" alt="รูปโปรไฟล์">
+    <div class="hero-text">
+        <p class="subtitle">WELCOME TO MY PORTFOLIO</p>
 
-        <h1>สวัสดีครับ</h1>
-
-        <h2>ผมชื่อ นาย....................</h2>
+        <h1>สวัสดีครับ<br>
+            ผมชื่อ <span>ชื่อของคุณ</span>
+        </h1>
 
         <p>
-            ยินดีต้อนรับเข้าสู่เว็บไซต์ Portfolio ของผม
+            นักเรียนชั้นมัธยมศึกษาปีที่ 6
+            ผู้ที่สนใจด้านเทคโนโลยี การเขียนเว็บไซต์
+            และการพัฒนาตนเอง
         </p>
 
-        <a href="about.html">ดูประวัติ</a>
+        <div class="hero-buttons">
+            <a href="projects.html" class="btn">ดูผลงาน</a>
+            <a href="contact.html" class="btn btn-outline">ติดต่อผม</a>
+        </div>
+    </div>
 
-        <a href="contact.html">ติดต่อฉัน</a>
+    <div class="profile">
+        <div class="profile-circle">
+            <span>รูปภาพ</span>
+        </div>
+    </div>
 
-    </main>
+</main>
 
+<footer>
+    <p>© 2026 My Portfolio | นักเรียนชั้น ม.6</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
