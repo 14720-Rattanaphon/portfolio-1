@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | ติดต่อ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="education.html">การศึกษา</a></li>
+            <li><a href="projects.html">ผลงาน</a></li>
+            <li><a href="skills.html">ทักษะ</a></li>
+            <li><a href="contact.html" class="active">ติดต่อ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>ช่องทางการติดต่อ</h1>
+    <p>Contact Me</p>
+</section>
+
+<main class="container">
+
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <h2>ติดต่อผม</h2>
+
+            <p>
+                หากต้องการติดต่อหรือสอบถามข้อมูลเพิ่มเติม
+                สามารถติดต่อผมผ่านช่องทางด้านล่างได้เลยครับ
+            </p>
+
+            <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                    <h3>Email</h3>
+                    <p>yourname@email.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div>
+                    <h3>โทรศัพท์</h3>
+                    <p>08X-XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                    <h3>สถานที่</h3>
+                    <p>จังหวัดของคุณ ประเทศไทย</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+
+        </div>
+
+
+        <div class="contact-form">
+
+            <h2>ส่งข้อความ</h2>
+
+            <form id="contactForm">
+
+                <label>ชื่อ</label>
+                <input type="text" id="name" placeholder="กรอกชื่อของคุณ" required>
+
+                <label>Email</label>
+                <input type="email" id="email" placeholder="กรอก Email" required>
+
+                <label>ข้อความ</label>
+                <textarea id="message" rows="6"
+                    placeholder="เขียนข้อความ..." required></textarea>
+
+                <button type="submit" class="btn">
+                    ส่งข้อความ
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
