@@ -1,74 +1,55 @@
-/* สีพื้นหลังทุกหน้า */
+html,
 body {
     margin: 0;
-    background-color: #fff0f5;
-    color: #5a3d46;
+    padding: 0;
+    min-height: 100%;
+    background: #fff0f5;
+}
+
+/* เนื้อหาทั้งหน้า */
+body {
+    color: #4a3040;
     font-family: Arial, sans-serif;
 }
 
-/* เมนูทุกหน้า */
+/* เมนู */
 nav {
-    background-color: #f8bbd0;
+    background: #f8bbd0;
     padding: 20px;
-    text-align: center;
 }
 
+/* ลิงก์เมนู */
 nav a {
-    color: #7a4055;
+    color: #c2185b;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
 
-nav a:hover {
-    color: #e91e63;
+/* หัวข้อ */
+h1,
+h2,
+h3 {
+    color: #d81b60;
 }
 
-/* เนื้อหาทุกหน้า */
-.container,
+/* ส่วนเนื้อหา */
 section,
-main {
-    background-color: #fff0f5;
+main,
+.container {
+    background: transparent;
 }
 
-/* หัวข้อทุกหน้า */
-h1, h2, h3 {
-    color: #e91e63;
-}
-
-/* กล่องข้อมูล */
+/* กล่องข้อมูล ถ้ามี */
 .card {
-    background-color: #ffffff;
+    background: #fff8fa;
     border: 2px solid #f8bbd0;
     border-radius: 20px;
     padding: 25px;
-    margin: 20px auto;
 }
 
-/* ปุ่ม */
-button {
-    background-color: #f48fb1;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 25px;
-}
-
-button:hover {
-    background-color: #ec407a;
-}
-
-/* ช่องกรอกข้อมูลหน้าติดต่อ */
-input,
-textarea {
-    border: 2px solid #f8bbd0;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-/* ส่วนท้ายทุกหน้า */
+/* Footer */
 footer {
-    background-color: #f8bbd0;
+    background: #f8bbd0;
     padding: 20px;
-    text-align: center;
 }
