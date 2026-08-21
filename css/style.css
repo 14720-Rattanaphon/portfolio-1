@@ -140,7 +140,7 @@ header {
         #db2777
     );
 
-    color: #3f2933;
+    color: #FF69B4
 
     padding: 12px 25px;
     border-radius: 12px;
@@ -170,7 +170,7 @@ header {
 
 .btn-outline:hover {
     background: #ec4899;
-    color: #3f2933;
+    color: #FF69B4
 }
 
 
