@@ -40,7 +40,7 @@ header {
 }
 
 .logo {
-    color: #db2777;
+    color: #3f2933;
     font-size: 25px;
     font-weight: 700;
 }
@@ -72,7 +72,7 @@ header {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: #ec4899;
+    color:#3f2933;
 }
 
 .nav-menu a:hover::after,
@@ -100,7 +100,7 @@ header {
 }
 
 .subtitle {
-    color: #ec4899;
+    color: #3f2933;
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 18px;
@@ -140,7 +140,7 @@ header {
         #db2777
     );
 
-    color: white;
+    color: #3f2933;
 
     padding: 12px 25px;
     border-radius: 12px;
@@ -170,7 +170,7 @@ header {
 
 .btn-outline:hover {
     background: #ec4899;
-    color: white;
+    color: #3f2933;
 }
 
 
@@ -238,7 +238,7 @@ header {
             #f472b6
         );
 
-    color: white;
+    color: #3f2933;
 
     position: relative;
     overflow: hidden;
