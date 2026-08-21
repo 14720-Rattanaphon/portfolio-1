@@ -1,55 +1,206 @@
+/* =========================
+   Pink Pastel Portfolio
+   จัดข้อความให้อยู่ตรงกลางทุกหน้า
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     min-height: 100%;
-    background: #fff0f5;
 }
 
-/* เนื้อหาทั้งหน้า */
 body {
-    color: #4a3040;
+    background-color: #fff0f5;
+    color: #5a3d46;
     font-family: Arial, sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
 }
 
-/* เมนู */
+/* =========================
+   เมนู
+   ========================= */
+
 nav {
-    background: #f8bbd0;
-    padding: 20px;
+    background-color: #f8bbd0;
+    padding: 20px 10px;
+    text-align: center;
 }
 
-/* ลิงก์เมนู */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
 nav a {
-    color: #c2185b;
+    color: #ad1457;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
 }
 
-/* หัวข้อ */
-h1,
-h2,
-h3 {
+nav a:hover {
+    color: #e91e63;
+}
+
+/* =========================
+   เนื้อหาทุกหน้า
+   ========================= */
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    text-align: center;
+}
+
+/* ทุก section อยู่ตรงกลาง */
+
+section {
+    width: 100%;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+/* =========================
+   หัวข้อ
+   ========================= */
+
+h1 {
     color: #d81b60;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 25px;
 }
 
-/* ส่วนเนื้อหา */
-section,
-main,
-.container {
-    background: transparent;
+h2 {
+    color: #d81b60;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
 }
 
-/* กล่องข้อมูล ถ้ามี */
+h3 {
+    color: #e91e63;
+    text-align: center;
+}
+
+/* =========================
+   ตัวอักษร
+   ========================= */
+
+p {
+    text-align: center;
+    max-width: 850px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
+/* =========================
+   กล่องข้อมูล
+   ========================= */
+
 .card {
-    background: #fff8fa;
+    width: 100%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff8fa;
     border: 2px solid #f8bbd0;
     border-radius: 20px;
-    padding: 25px;
+    text-align: center;
 }
 
-/* Footer */
+/* =========================
+   รูปภาพ
+   ========================= */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* =========================
+   ปุ่ม
+   ========================= */
+
+button {
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ec407a;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
 footer {
-    background: #f8bbd0;
-    padding: 20px;
+    background-color: #f8bbd0;
+    color: #5a3d46;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* =========================
+   สำหรับมือถือ
+   ========================= */
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 17px;
+        max-width: 100%;
+    }
+
+    nav {
+        padding: 15px 5px;
+    }
+
+    nav li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .card {
+        padding: 20px 15px;
+    }
 }
